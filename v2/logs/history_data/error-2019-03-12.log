@@ -1,0 +1,410 @@
+[2019-03-12 16:34:16,837[history_data] ERROR: 错误code=000029.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 33, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 16:35:25,240[history_data] ERROR: 错误code=000029.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 16:38:14,483[history_data] ERROR: 错误code=000693.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 28, in save_data
+    d=data.reset_index()
+AttributeError: 'NoneType' object has no attribute 'reset_index'
+[2019-03-12 16:39:29,262[history_data] ERROR: 错误code=000029.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 16:44:04,402[history_data] ERROR: 错误code=000693.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 16:48:14,984[history_data] ERROR: 错误code=002070.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 16:52:22,051[history_data] ERROR: 错误code=002307.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 16:52:33,615[history_data] ERROR: 错误code=002323.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 16:59:44,625[history_data] ERROR: 错误code=002680.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 17:04:32,635[history_data] ERROR: 错误code=300028.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 17:15:01,271[history_data] ERROR: 错误code=600072.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 17:17:17,351[history_data] ERROR: 错误code=600145.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 28, in save_data
+    d=data.reset_index()
+AttributeError: 'NoneType' object has no attribute 'reset_index'
+[2019-03-12 17:19:10,923[history_data] ERROR: 错误code=600345.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 17:20:20,640[history_data] ERROR: 错误code=600401.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 17:20:54,313[history_data] ERROR: 错误code=600485.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 17:22:49,044[history_data] ERROR: 错误code=600680.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 34, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 17:24:14,788[history_data] ERROR: 错误code=600719.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:24:51,167[history_data] ERROR: 错误code=600721.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:25:39,089[history_data] ERROR: 错误code=600722.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:26:16,502[history_data] ERROR: 错误code=600723.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:27:07,337[history_data] ERROR: 错误code=600724.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:28:21,984[history_data] ERROR: 错误code=600732.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:29:38,279[history_data] ERROR: 错误code=600737.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:30:30,696[history_data] ERROR: 错误code=600738.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:31:43,723[history_data] ERROR: 错误code=600740.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:32:33,405[history_data] ERROR: 错误code=600741.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:33:30,597[history_data] ERROR: 错误code=600742.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:34:23,264[history_data] ERROR: 错误code=600743.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:35:36,530[history_data] ERROR: 错误code=600746.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:36:25,373[history_data] ERROR: 错误code=600747.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 26, in save_data
+    data=ts.get_hist_data(code,ktype=ktype,start=start_date,end=end_date)
+  File "C:\anoconda3\lib\site-packages\tushare\stock\trading.py", line 100, in get_hist_data
+    raise IOError(ct.NETWORK_URL_ERROR_MSG)
+OSError: 获取失败，请检查网络.
+[2019-03-12 17:58:57,160[history_data] ERROR: 错误code=000029.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 20:37:28,491[history_data] ERROR: 错误code=000029.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 20:40:53,110[history_data] ERROR: 错误code=000693.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 20:45:23,797[history_data] ERROR: 错误code=002070.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 20:49:22,101[history_data] ERROR: 错误code=002307.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 20:49:49,422[history_data] ERROR: 错误code=002323.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 20:56:12,815[history_data] ERROR: 错误code=002680.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 21:01:55,713[history_data] ERROR: 错误code=300028.SZ
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 21:16:47,747[history_data] ERROR: 错误code=600072.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 21:18:20,639[history_data] ERROR: 错误code=600145.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 30, in save_data
+    d=data.reset_index()
+AttributeError: 'NoneType' object has no attribute 'reset_index'
+[2019-03-12 21:21:17,408[history_data] ERROR: 错误code=600345.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 21:22:20,283[history_data] ERROR: 错误code=600401.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 21:23:04,807[history_data] ERROR: 错误code=600485.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
+[2019-03-12 21:26:18,197[history_data] ERROR: 错误code=600680.SH
+Traceback (most recent call last):
+  File "G:/gp/D_QUANT/v2/data/history_data.py", line 36, in save_data
+    db['data_'+ktype].insert(json.loads(d.to_json(orient='records')))
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 2941, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\anoconda3\lib\site-packages\pymongo\collection.py", line 633, in _insert
+    blk.execute(concern, session=session)
+  File "C:\anoconda3\lib\site-packages\pymongo\bulk.py", line 414, in execute
+    raise InvalidOperation('No operations to execute')
+pymongo.errors.InvalidOperation: No operations to execute
